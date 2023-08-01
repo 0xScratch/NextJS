@@ -1,0 +1,233 @@
+{
+  "batchcomplete": "",
+  "continue": { "gsroffset": 20, "continue": "gsroffset||" },
+  "query": {
+    "pages": {
+      "48309": {
+        "pageid": 48309,
+        "ns": 0,
+        "title": "Algebraic notation (chess)",
+        "index": 3,
+        "thumbnail": {
+          "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/SCD_algebraic_notation.svg/50px-SCD_algebraic_notation.svg.png",
+          "width": 50,
+          "height": 51
+        },
+        "pageimage": "SCD_algebraic_notation.svg",
+        "extract": "Algebraic notation is the standard method for recording and describing the moves in a game of chess...."
+      },
+      "47616": {
+        "pageid": 47616,
+        "ns": 0,
+        "title": "Bishop (chess)",
+        "index": 17,
+        "thumbnail": {
+          "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Chess_piece_-_White_bishop.JPG/50px-Chess_piece_-_White_bishop.JPG",
+          "width": 50,
+          "height": 86
+        },
+        "pageimage": "Chess_piece_-_White_bishop.JPG",
+        "extract": "The bishop (\u2657, \u265d) is a piece in the game of chess. It moves and captures along diagonals without jumping..."
+      },
+      "5134": {
+        "pageid": 5134,
+        "ns": 0,
+        "title": "Chess",
+        "index": 1,
+        "thumbnail": {
+          "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/ChessSet.jpg/50px-ChessSet.jpg",
+          "width": 50,
+          "height": 46
+        },
+        "pageimage": "ChessSet.jpg",
+        "extract": "Chess is a board game for two players, called White and Black, each controlling an army of chess pieces..."
+      },
+      "41224000": {
+        "pageid": 41224000,
+        "ns": 0,
+        "title": "Chess.com",
+        "index": 5,
+        "extract": "Chess.com is an internet chess server and social networking website. The site has a freemium model in..."
+      },
+      "612922": {
+        "pageid": 612922,
+        "ns": 0,
+        "title": "Chess (disambiguation)",
+        "index": 2,
+        "extract": "Chess is a two-player board game.\nChess or CHESS may also refer to:"
+      },
+      "47618": {
+        "pageid": 47618,
+        "ns": 0,
+        "title": "Chess piece",
+        "index": 19,
+        "thumbnail": {
+          "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/JaquesCookStaunton.jpg/50px-JaquesCookStaunton.jpg",
+          "width": 50,
+          "height": 23
+        },
+        "pageimage": "JaquesCookStaunton.jpg",
+        "extract": "A chess piece, or chessman, is a game piece that is placed on a chessboard to play the game of chess..."
+      },
+      "21908923": {
+        "pageid": 21908923,
+        "ns": 0,
+        "title": "Chess rating system",
+        "index": 13,
+        "extract": "A chess rating system is a system used in chess to estimate the strength of a player, based on their..."
+      },
+      "68367": {
+        "pageid": 68367,
+        "ns": 0,
+        "title": "Computer chess",
+        "index": 20,
+        "thumbnail": {
+          "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/RS_Chess_Computer.JPG/50px-RS_Chess_Computer.JPG",
+          "width": 50,
+          "height": 33
+        },
+        "pageimage": "RS_Chess_Computer.JPG",
+        "extract": "Computer chess includes both hardware (dedicated computers) and software capable of playing chess. Computer..."
+      },
+      "844787": {
+        "pageid": 844787,
+        "ns": 0,
+        "title": "Fast chess",
+        "index": 16,
+        "thumbnail": {
+          "source": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ab/Union_Square_chess_with_spectators.jpg/50px-Union_Square_chess_with_spectators.jpg",
+          "width": 50,
+          "height": 33
+        },
+        "pageimage": "Union_Square_chess_with_spectators.jpg",
+        "extract": "Fast chess, also known as speed chess, is a type of chess in which each player is given less time to..."
+      },
+      "68042": {
+        "pageid": 68042,
+        "ns": 0,
+        "title": "Fischer random chess",
+        "index": 14,
+        "thumbnail": {
+          "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Chess960_example_init_position.png/50px-Chess960_example_init_position.png",
+          "width": 50,
+          "height": 50
+        },
+        "pageimage": "Chess960_example_init_position.png",
+        "extract": "Fischer random chess, also known as Chess960 ('chess nine-sixty'), is a variation of the game of chess..."
+      },
+      "150643": {
+        "pageid": 150643,
+        "ns": 0,
+        "title": "Glossary of chess",
+        "index": 7,
+        "extract": "This glossary of chess explains commonly used terms in chess, in alphabetical order. Some of these terms..."
+      },
+      "12304": {
+        "pageid": 12304,
+        "ns": 0,
+        "title": "Grandmaster (chess)",
+        "index": 8,
+        "extract": "Grandmaster (GM) is a title awarded to chess players by the world chess organization FIDE. Apart from..."
+      },
+      "588176": {
+        "pageid": 588176,
+        "ns": 0,
+        "title": "Hikaru Nakamura",
+        "index": 15,
+        "thumbnail": {
+          "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Nakamura_Hikaru_%2829290269410%29_%28cropped%29_%28cropped%29.jpg/50px-Nakamura_Hikaru_%2829290269410%29_%28cropped%29_%28cropped%29.jpg",
+          "width": 50,
+          "height": 69
+        },
+        "pageimage": "Nakamura_Hikaru_(29290269410)_(cropped)_(cropped).jpg",
+        "extract": "Christopher Hikaru Nakamura (born December 9, 1987) is an American chess grandmaster, Twitch streamer..."
+      },
+      "1952627": {
+        "pageid": 1952627,
+        "ns": 0,
+        "title": "History of chess",
+        "index": 11,
+        "thumbnail": {
+          "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/NMSLewisChessmen29.jpg/50px-NMSLewisChessmen29.jpg",
+          "width": 50,
+          "height": 38
+        },
+        "pageimage": "NMSLewisChessmen29.jpg",
+        "extract": "The history of chess can be traced back nearly 1,500 years to its earliest known predecessor, called..."
+      },
+      "47181296": {
+        "pageid": 47181296,
+        "ns": 0,
+        "title": "International Chess Day",
+        "index": 10,
+        "extract": "International Chess Day is celebrated annually on 20 July, the day the International Chess Federation..."
+      },
+      "48556": {
+        "pageid": 48556,
+        "ns": 0,
+        "title": "List of chess variants",
+        "index": 6,
+        "thumbnail": {
+          "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Hexagonal_chess.svg/50px-Hexagonal_chess.svg.png",
+          "width": 50,
+          "height": 55
+        },
+        "pageimage": "Hexagonal_chess.svg",
+        "extract": "This is a list of chess variants. Many thousands of variants exist. The 2007 catalogue The Encyclopedia..."
+      },
+      "47615": {
+        "pageid": 47615,
+        "ns": 0,
+        "title": "Rook (chess)",
+        "index": 18,
+        "thumbnail": {
+          "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Chess_piece_-_White_rook.JPG/50px-Chess_piece_-_White_rook.JPG",
+          "width": 50,
+          "height": 85
+        },
+        "pageimage": "Chess_piece_-_White_rook.JPG",
+        "extract": "The rook (; \u2656, \u265c) is a piece in the game of chess. It may move any number of squares horizontally or..."
+      },
+      "48907": {
+        "pageid": 48907,
+        "ns": 0,
+        "title": "Rules of chess",
+        "index": 12,
+        "thumbnail": {
+          "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/ChessSet.jpg/50px-ChessSet.jpg",
+          "width": 50,
+          "height": 46
+        },
+        "pageimage": "ChessSet.jpg",
+        "extract": "The rules of chess (also known as the laws of chess) govern the play of the game of chess. Chess is a..."
+      },
+      "27040743": {
+        "pageid": 27040743,
+        "ns": 0,
+        "title": "Stockfish (chess)",
+        "index": 9,
+        "thumbnail": {
+          "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/NewLogoSF.png/50px-NewLogoSF.png",
+          "width": 50,
+          "height": 50
+        },
+        "pageimage": "NewLogoSF.png",
+        "extract": "Stockfish is a free and open-source chess engine, available for various desktop and mobile platforms..."
+      },
+      "166667": {
+        "pageid": 166667,
+        "ns": 0,
+        "title": "World Chess Championship",
+        "index": 4,
+        "thumbnail": {
+          "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Ding_Liren_in_2023.jpg/50px-Ding_Liren_in_2023.jpg",
+          "width": 50,
+          "height": 50
+        },
+        "pageimage": "Ding_Liren_in_2023.jpg",
+        "extract": "The World Chess Championship is played to determine the world champion in chess. The current world champion..."
+      }
+    }
+  },
+  "limits": { "extracts": 20 }
+}
