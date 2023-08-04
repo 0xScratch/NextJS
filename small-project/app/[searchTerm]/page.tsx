@@ -16,7 +16,7 @@ export async function generateMetadata({ params: { searchTerm } }: Props){
         return {
             title: `${displayTerm} Not Found`
         }
-    }
+    }   
 
     return {
         title: displayTerm,

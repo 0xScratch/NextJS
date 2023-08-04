@@ -1,30 +1,62 @@
 import Question from "./Question"
+import Options from "./Options"
 
 import he from "he"
+import { nanoid } from "nanoid"
 
 export default function Frames() {
     const set = [
         {
-            id: 1,
+            id: nanoid(),
             "question":"What breed of dog was Marley in the film &quot;Marley &amp; Me&quot; (2008)?",
-            "options": ["Golden Retriever","Dalmatian","Shiba Inu", "Labrador"]
-        },
-        {   
-            id: 2,
-            "question":"Who is the protagonist in the game &quot;The Walking Dead: Season One&quot;?",
-            "options": ["Clementine","Kenny","Rick Grimes", "Lee Everett"]
+            "correct_answer": "Dalmation",
+            "incorrect_answers": ["Golden Retriever","Shiba Inu", "Labrador"]
         },
         {
-            id: 3,
-            "question": "What is the shape of the toy invented by Hungarian professor Ern\u0151 Rubik?",
-            "options": ["Sphere","Cylinder","Pyramid", "Cube"]
+            id: nanoid(),   
+            "question":"What breed of dog was Marley in the film &quot;Marley &amp; Me&quot; (2008)?",
+            "correct_answer": "Labrador",
+            "incorrect_answers": ["Golden Retriever","Shiba Inu", "Dalmation"]
         },
+        {
+            id: nanoid(),
+            "question":"What breed of dog was Marley in the film &quot;Marley &amp; Me&quot; (2008)?",
+            "correct_answer": "Dalmation",
+            "incorrect_answers": ["Golden Retriever","Shiba Inu", "Labrador"]
+        },
+        {
+            id: nanoid(),
+            "question":"What breed of dog was Marley in the film &quot;Marley &amp; Me&quot; (2008)?",
+            "correct_answer": "Golden Retriever",
+            "incorrect_answers": ["Dalmation","Shiba Inu", "Labrador"]
+        },
+        {
+            id: nanoid(),
+            "question":"What breed of dog was Marley in the film &quot;Marley &amp; Me&quot; (2008)?",
+            "correct_answer": "Shiba Inu",
+            "incorrect_answers": ["Golden Retriever","Dalmation", "Labrador"]
+        }
     ]
 
+    function shuffleArray(array: string[]) {
+        const shuffledArray = [...array]; // Create a copy of the original array
+      
+        for (let i = shuffledArray.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [shuffledArray[i], shuffledArray[j]] = [shuffledArray[j], shuffledArray[i]];
+        }
+      
+        return shuffledArray;
+    }
+
     const frameElements = set.map(item => {
+        const options_array = item.incorrect_answers
+        const incorrect = options_array.push(item.correct_answer)
+        const newArray = shuffleArray(options_array)
         return (
             <div key={item.id}>
                 <Question question={he.decode(item.question)}/>
+                <Options options={newArray}/>
                 <br />
             </div>
         )
