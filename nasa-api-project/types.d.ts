@@ -11,8 +11,8 @@ type ItemLink = {
 };
 
 type Result = {
-    data?: Item[],
-    links?: ItemLink[]
+    data?: Item[0],
+    links?: ItemLink[0]
 }
   
 type SearchResult = {

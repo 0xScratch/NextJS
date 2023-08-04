@@ -1,4 +1,5 @@
 import getApiResults from "@/lib/getApiResults";
+import Item from "./components/Item";
 
 type Props = {
     params: {
@@ -6,13 +7,41 @@ type Props = {
     }
 }
 
+export async function generateMetadata({ params: { searchTerm } }: Props){
+    const apiData: Promise<SearchResult> = getApiResults(searchTerm)
+    const data = await apiData
+    const displayTerm = searchTerm.replaceAll('%20', ' ')
+
+    if (!data?.collection?.items) {
+        return {
+            title: `${displayTerm} Not Found`
+        }
+    }
+
+    return {
+        title: displayTerm,
+        description: `Search results for ${displayTerm}`
+    }
+}
+
 export default async function page({ params: {searchTerm } }: Props) {
     const apiData: Promise<SearchResult> = getApiResults(searchTerm)
     const data = await apiData
 
-    const result: Result[] | undefined = data?.collection?.items
+    const results: Result[] | undefined = data?.collection?.items
+    
 
-    return (
-        <div>page</div>
+    const content = (
+        <main>
+            {
+                results ? 
+                Object.values(results).map(result => {
+                    return <Item key={result.data?.nasa_id} result={result}></Item>
+                })
+                : <h2>{`${searchTerm} not Found`}</h2>
+            }
+        </main>
     )
+
+    return content
 }
