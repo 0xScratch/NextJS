@@ -57,7 +57,7 @@ export default function Frames() {
             <div key={item.id}>
                 <Question question={he.decode(item.question)}/>
                 <Options options={newArray}/>
-                <br />
+                <hr className="bg-[#DBDEF0] mt-3 mb-4"/>
             </div>
         )
     })
@@ -65,6 +65,9 @@ export default function Frames() {
     return (
         <div>
             {frameElements}
+            <div className="flex justify-center mt-8">
+                <button className="text-sm font-semibold bg-[#4d589e] text-[#f5f7fb] py-2 px-3 rounded-lg">Check answers</button>
+            </div>
         </div>
     )
 }
