@@ -4,7 +4,7 @@ type Props = {
 
 export default function Item({ result }: Props) {
     const content = (
-        <article className="flex">
+        <article className="flex mb-8 gap-4">
             <div className="image-section">
                 <img src={result.links[0].href} alt="" width={150} />
             </div>

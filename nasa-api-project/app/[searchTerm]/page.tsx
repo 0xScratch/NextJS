@@ -32,7 +32,7 @@ export default async function page({ params: {searchTerm } }: Props) {
     
 
     const content = (
-        <main>
+        <main className="flex flex-col w-[80%] m-auto">
             {
                 results ? 
                 Object.values(results).map(result => {
