@@ -1,28 +1,31 @@
-import he from "he"
-import { nanoid } from "nanoid";
+'use client'
+
+import { useState } from 'react';
 import Option from "./Option";
-import { useState } from 'react'
 
 type Props = {
-    options: string[]
-}
+  options: string[];
+};
 
 export default function OptionFrame({ options }: Props) {
-    // Start from here, you have to implement that select feature
+  const [selectedOptionIndex, setSelectedOptionIndex] = useState<number | null>(null);
 
-    const selectOption = (id: number) => {
-      
-    }
-    const optionElements = options.map((option, index) => (
-      <Option 
-        key={index}
-        value={option}
-        isSelected={false}
-      />
-    ))
-    return (
-        <div className="flex">
-          {optionElements}
-        </div>
-      );
+  const handleOptionClick = (index: number) => {
+    setSelectedOptionIndex(index === selectedOptionIndex ? null : index);
+  };
+
+  const optionElements = options.map((option, index) => (
+    <Option
+      key={index}
+      value={option}
+      isSelected={index === selectedOptionIndex}
+      onClick={() => handleOptionClick(index)}
+    />
+  ));
+
+  return (
+    <div className="flex">
+      {optionElements}
+    </div>
+  );
 }
