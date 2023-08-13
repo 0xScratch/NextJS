@@ -4,8 +4,10 @@ import OptionFrame from "./OptionFrame"
 import he from "he"
 import { nanoid } from "nanoid"
 import getQuestions from "@/lib/getQuestions"
+import Button from "./Button"
 
 export default async function Frames() {
+    let checkAnswers = false;
     const mcqData: Promise<Results> = getQuestions()
     const data = await mcqData
     const results: MCQ[] | undefined = data.results
@@ -21,6 +23,10 @@ export default async function Frames() {
         return shuffledArray;
     }
 
+    const checkAnswer = () => {
+        checkAnswers = true
+    }
+
     const frameElements = results?.map(item => {
         const options_array = item.incorrect_answers
         const incorrect = options_array.push(item.correct_answer)
@@ -28,7 +34,7 @@ export default async function Frames() {
         return (
             <div key={nanoid()}>    
                 <Question question={he.decode(item.question)}/>
-                <OptionFrame options={newArray}/>
+                <OptionFrame options={newArray} correctAnswer={item.correct_answer} checkAnswers={checkAnswers}/>
                 <hr className="bg-[#DBDEF0] mt-3 mb-4"/>
             </div>
         )
@@ -37,9 +43,7 @@ export default async function Frames() {
     return (
         <div>
             {frameElements}
-            <div className="flex justify-center mt-8">
-                <button className="text-sm font-semibold bg-[#4d589e] text-[#f5f7fb] py-2 px-3 rounded-lg mb-3">Check answers</button>
-            </div>
+            <Button checkAnswer={checkAnswer}/>
         </div>
     )
 }
